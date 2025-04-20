@@ -1,0 +1,25 @@
+[0.739s] Invoking command in '/home/elytra/AdR/p2_ws/src/p2_kf_adr': PYTHONPATH=/home/elytra/AdR/p2_ws/build/p2_kf_adr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p2_kf_adr build --build-base /home/elytra/AdR/p2_ws/build/p2_kf_adr/build install --record /home/elytra/AdR/p2_ws/build/p2_kf_adr/install.log --single-version-externally-managed install_data
+[0.988s] running egg_info
+[0.989s] writing ../../build/p2_kf_adr/p2_kf_adr.egg-info/PKG-INFO
+[0.989s] writing dependency_links to ../../build/p2_kf_adr/p2_kf_adr.egg-info/dependency_links.txt
+[0.989s] writing entry points to ../../build/p2_kf_adr/p2_kf_adr.egg-info/entry_points.txt
+[0.989s] writing requirements to ../../build/p2_kf_adr/p2_kf_adr.egg-info/requires.txt
+[0.989s] writing top-level names to ../../build/p2_kf_adr/p2_kf_adr.egg-info/top_level.txt
+[0.991s] reading manifest file '../../build/p2_kf_adr/p2_kf_adr.egg-info/SOURCES.txt'
+[0.992s] writing manifest file '../../build/p2_kf_adr/p2_kf_adr.egg-info/SOURCES.txt'
+[0.992s] running build
+[0.992s] running build_py
+[0.993s] copying p2_kf_adr/kf_estimation.py -> /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr
+[0.993s] running install
+[0.994s] running install_lib
+[0.995s] copying /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr/kf_estimation.py -> /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr
+[0.995s] byte-compiling /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/kf_estimation.py to kf_estimation.cpython-310.pyc
+[0.996s] running install_data
+[0.997s] running install_egg_info
+[0.998s] removing '/home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr-0.0.0-py3.10.egg-info' (and everything under it)
+[0.998s] Copying ../../build/p2_kf_adr/p2_kf_adr.egg-info to /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr-0.0.0-py3.10.egg-info
+[0.999s] running install_scripts
+[1.023s] Installing kf_estimation script to /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/p2_kf_adr
+[1.023s] Installing kf_estimation_vel script to /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/p2_kf_adr
+[1.024s] writing list of installed files to '/home/elytra/AdR/p2_ws/build/p2_kf_adr/install.log'
+[1.059s] Invoked command in '/home/elytra/AdR/p2_ws/src/p2_kf_adr' returned '0': PYTHONPATH=/home/elytra/AdR/p2_ws/build/p2_kf_adr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p2_kf_adr build --build-base /home/elytra/AdR/p2_ws/build/p2_kf_adr/build install --record /home/elytra/AdR/p2_ws/build/p2_kf_adr/install.log --single-version-externally-managed install_data

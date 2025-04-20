@@ -1,0 +1,60 @@
+[0.799s] Invoking command in '/home/elytra/AdR/p2_ws/src/p2_kf_adr': PYTHONPATH=/home/elytra/AdR/p2_ws/build/p2_kf_adr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p2_kf_adr build --build-base /home/elytra/AdR/p2_ws/build/p2_kf_adr/build install --record /home/elytra/AdR/p2_ws/build/p2_kf_adr/install.log --single-version-externally-managed install_data
+[1.091s] running egg_info
+[1.092s] creating ../../build/p2_kf_adr/p2_kf_adr.egg-info
+[1.092s] writing ../../build/p2_kf_adr/p2_kf_adr.egg-info/PKG-INFO
+[1.092s] writing dependency_links to ../../build/p2_kf_adr/p2_kf_adr.egg-info/dependency_links.txt
+[1.092s] writing entry points to ../../build/p2_kf_adr/p2_kf_adr.egg-info/entry_points.txt
+[1.092s] writing requirements to ../../build/p2_kf_adr/p2_kf_adr.egg-info/requires.txt
+[1.092s] writing top-level names to ../../build/p2_kf_adr/p2_kf_adr.egg-info/top_level.txt
+[1.092s] writing manifest file '../../build/p2_kf_adr/p2_kf_adr.egg-info/SOURCES.txt'
+[1.093s] reading manifest file '../../build/p2_kf_adr/p2_kf_adr.egg-info/SOURCES.txt'
+[1.094s] writing manifest file '../../build/p2_kf_adr/p2_kf_adr.egg-info/SOURCES.txt'
+[1.094s] running build
+[1.094s] running build_py
+[1.094s] creating /home/elytra/AdR/p2_ws/build/p2_kf_adr/build
+[1.094s] creating /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib
+[1.094s] creating /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr
+[1.094s] copying p2_kf_adr/visualization.py -> /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr
+[1.094s] copying p2_kf_adr/__init__.py -> /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr
+[1.094s] copying p2_kf_adr/motion_models.py -> /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr
+[1.094s] copying p2_kf_adr/observation_models.py -> /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr
+[1.094s] copying p2_kf_adr/kf_estimation_vel.py -> /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr
+[1.094s] copying p2_kf_adr/kf_estimation.py -> /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr
+[1.094s] copying p2_kf_adr/sensor_utils.py -> /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr
+[1.094s] creating /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr/filters
+[1.094s] copying p2_kf_adr/filters/__init__.py -> /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr/filters
+[1.094s] copying p2_kf_adr/filters/kalman_filter.py -> /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr/filters
+[1.095s] running install
+[1.095s] running install_lib
+[1.095s] creating /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr
+[1.095s] copying /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr/visualization.py -> /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr
+[1.095s] creating /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/filters
+[1.095s] copying /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr/filters/__init__.py -> /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/filters
+[1.095s] copying /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr/filters/kalman_filter.py -> /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/filters
+[1.095s] copying /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr/__init__.py -> /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr
+[1.095s] copying /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr/motion_models.py -> /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr
+[1.095s] copying /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr/observation_models.py -> /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr
+[1.096s] copying /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr/kf_estimation_vel.py -> /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr
+[1.096s] copying /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr/kf_estimation.py -> /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr
+[1.096s] copying /home/elytra/AdR/p2_ws/build/p2_kf_adr/build/lib/p2_kf_adr/sensor_utils.py -> /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr
+[1.097s] byte-compiling /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/visualization.py to visualization.cpython-310.pyc
+[1.098s] byte-compiling /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/filters/__init__.py to __init__.cpython-310.pyc
+[1.098s] byte-compiling /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/filters/kalman_filter.py to kalman_filter.cpython-310.pyc
+[1.098s] byte-compiling /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/__init__.py to __init__.cpython-310.pyc
+[1.098s] byte-compiling /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/motion_models.py to motion_models.cpython-310.pyc
+[1.098s] byte-compiling /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/observation_models.py to observation_models.cpython-310.pyc
+[1.098s] byte-compiling /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/kf_estimation_vel.py to kf_estimation_vel.cpython-310.pyc
+[1.099s] byte-compiling /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/kf_estimation.py to kf_estimation.cpython-310.pyc
+[1.099s] byte-compiling /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/sensor_utils.py to sensor_utils.cpython-310.pyc
+[1.099s] running install_data
+[1.099s] creating /home/elytra/AdR/p2_ws/install/p2_kf_adr/share/ament_index
+[1.099s] creating /home/elytra/AdR/p2_ws/install/p2_kf_adr/share/ament_index/resource_index
+[1.099s] creating /home/elytra/AdR/p2_ws/install/p2_kf_adr/share/ament_index/resource_index/packages
+[1.099s] copying resource/p2_kf_adr -> /home/elytra/AdR/p2_ws/install/p2_kf_adr/share/ament_index/resource_index/packages
+[1.099s] copying package.xml -> /home/elytra/AdR/p2_ws/install/p2_kf_adr/share/p2_kf_adr
+[1.099s] running install_egg_info
+[1.101s] Copying ../../build/p2_kf_adr/p2_kf_adr.egg-info to /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr-0.0.0-py3.10.egg-info
+[1.102s] running install_scripts
+[1.128s] Installing kf_estimation script to /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/p2_kf_adr
+[1.128s] Installing kf_estimation_vel script to /home/elytra/AdR/p2_ws/install/p2_kf_adr/lib/p2_kf_adr
+[1.128s] writing list of installed files to '/home/elytra/AdR/p2_ws/build/p2_kf_adr/install.log'

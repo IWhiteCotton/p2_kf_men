@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:10 (find_package):
+  By not providing "Findgz_gui_vendor.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "gz_gui_vendor", but CMake did not find one.
+
+  Could not find a package configuration file provided by "gz_gui_vendor"
+  with any of the following names:
+
+    gz_gui_vendorConfig.cmake
+    gz_gui_vendor-config.cmake
+
+  Add the installation prefix of "gz_gui_vendor" to CMAKE_PREFIX_PATH or set
+  "gz_gui_vendor_DIR" to a directory containing one of the above files.  If
+  "gz_gui_vendor" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m
